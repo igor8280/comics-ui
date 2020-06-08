@@ -1,0 +1,50 @@
+.separator {
+	display: inline-block;
+	vertical-align: middle;
+	height: 20px;
+	margin: 0 10px;
+	border-right: 1px solid #c8d3d8;
+}
+
+.form-input-separator {
+	width: 1px;
+	height: 24px;
+	background-color: #c8d3d8;
+	margin-top: 43px;
+	display: inline-block;
+}
+
+.space {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.clearfix:before,
+.clearfix:after {
+	display: table;
+	content: "";
+}
+.clearfix:after {
+	clear: both
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-center {
+	display: flex;
+	align-items: center;
+}
+
+.flex-grow {
+	flex-grow: 1;
+}
+
+
+// add three dots
+.ellipsis {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}

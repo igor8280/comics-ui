@@ -1,0 +1,13 @@
+.page-login {
+	padding-top: 20vh;
+	background-color: $color-background-edit;
+	height: 100vh;
+
+	.el-row {
+		border: none;
+	}
+
+	.el-form-item__label {
+		float: left;
+	}
+}

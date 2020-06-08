@@ -1,0 +1,43 @@
+/**
+*
+*	variables for colors
+*
+ */
+
+$color-primary: #f4aa0b;
+$color-background: #ebeff1; //#dfe5e8;
+$color-background-edit: #f6f8f9;
+
+$color-background-button: #c8d3d8;
+
+$color-text: #4b5f6a;
+$color-text-light: #849ba7;
+
+$color-menu-item-text: #647e8c	;
+$color-menu-item-text-hover: $color-primary;
+$color-menu-item-bg: #ffffff;
+$color-menu-item-bg-hover: $color-background-edit;
+$color-menu-item-bg-active: $color-background;
+
+$color-main-header-title: #4b5f6a;
+$color-main-header-border: #cdd2d5;
+
+$color-tab-header: #4b5f6a;
+
+/**
+*
+*	variables for element-ui
+*
+*/
+
+/* theme color */
+$--color-primary: $color-primary; // #5eb7c0;
+
+/* icon font path, required */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+/**
+	navigation
+ */
+$navigation-width: 240px;
+$logo-height: 46px;
